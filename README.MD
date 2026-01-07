@@ -42,4 +42,4 @@ automation-app/
 
 
 ## 📄 License
-This project is opensourcs
+This project is open-source and free to use.
