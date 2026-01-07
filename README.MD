@@ -1,0 +1,51 @@
+# 🛠 Automation App
+
+A backend automation system built with **Express**, **TypeScript**, and **MongoDB**.  
+This app allows users to create tasks, update their status, and ensures that **users can only view their own tasks**.
+
+## 📂 Project Structure
+
+automation-app/
+├── src/
+│   ├── config/          # Database and environment configuration
+│   ├── schemas/         # DTOs and validation schemas
+│   ├── users/           # User module (model, controller, service)
+│   ├── tasks/           # Task module (model, controller, service)
+│   ├── middlewares/     # Custom middlewares (auth, error handling)
+│   ├── index.ts         # App entry point
+├── dist/                # Compiled JS output
+├── node_modules/
+├── package.json
+├── tsconfig.json
+├── .env
+
+## 📜 package.json Scripts
+"scripts": {
+"test": "echo "Error: no test specified" && exit 1",
+"dev": "nodemon src/index.ts",
+"build": "tsc",
+"start": "node dist/index.js"
+}
+- dev → Runs the app in development mode with live reload (nodemon).
+- build → Compiles TypeScript files into JavaScript (dist folder).
+- start → Runs the compiled app from the dist folder.
+- test → Placeholder for future test scripts.
+
+## 🚀 API Routes for user
+-GET /user - show all users
+-PUT /user/:id - update user by id
+-DELETE /user/:id - delete user by id
+
+## ✅ Task Routes
+- GET /tasks – Get tasks 
+- POST /tasks – Create a new task
+- PUT /tasks/:id – Update a task
+- DELETE /tasks/:id – Delete a task
+
+## 🔐 Auth Routes
+- POST /user/register – Register a new user
+- POST /user/auth/login – Login and show user tasks
+
+
+## 📄 License
+This project is opensourcs
