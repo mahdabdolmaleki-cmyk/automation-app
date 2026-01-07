@@ -20,12 +20,6 @@ automation-app/
 ├── .env
 
 ## 📜 package.json Scripts
-"scripts": {
-"test": "echo "Error: no test specified" && exit 1",
-"dev": "nodemon src/index.ts",
-"build": "tsc",
-"start": "node dist/index.js"
-}
 - dev → Runs the app in development mode with live reload (nodemon).
 - build → Compiles TypeScript files into JavaScript (dist folder).
 - start → Runs the compiled app from the dist folder.
