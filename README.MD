@@ -7,13 +7,13 @@ This app allows users to create tasks, update their status, and ensures that **u
 
 automation-app/
 ├── src/
-│   ├── config/          # Database and environment configuration
-│   ├── schemas/         # DTOs and validation schemas
-│   ├── users/           # User module (model, controller, service)
-│   ├── tasks/           # Task module (model, controller, service)
-│   ├── middlewares/     # Custom middlewares (auth, error handling)
-│   ├── index.ts         # App entry point
-├── dist/                # Compiled JS output
+│   ├── config/   
+│   ├── schemas/ 
+│   ├── users/  
+│   ├── tasks/          
+│   ├── middlewares/     
+│   ├── index.ts        
+├── dist/                
 ├── node_modules/
 ├── package.json
 ├── tsconfig.json
