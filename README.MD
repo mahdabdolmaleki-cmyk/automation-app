@@ -12,12 +12,15 @@ automation-app/
 │   ├── users/  
 │   ├── tasks/          
 │   ├── middlewares/     
-│   ├── index.ts        
+│   ├── index.ts      
 ├── dist/                
 ├── node_modules/
 ├── package.json
 ├── tsconfig.json
 ├── .env
+
+
+
 
 ## 📜 package.json Scripts
 - dev → Runs the app in development mode with live reload (nodemon).
