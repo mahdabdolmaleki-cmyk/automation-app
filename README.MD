@@ -5,20 +5,16 @@ This app allows users to create tasks, update their status, and ensures that **u
 
 ## 📂 Project Structure
 
-automation-app/
-├── src/
-│   ├── config/   
-│   ├── schemas/ 
-│   ├── users/  
-│   ├── tasks/          
-│   ├── middlewares/     
-│   ├── index.ts      
-├── dist/                
-├── node_modules/
-├── package.json
-├── tsconfig.json
-├── .env
-
+- automation-app/
+  - src/
+    - schemas/
+    - users/
+    - tasks/
+    - middlewares/
+    - index.ts
+  - package.json
+  - tsconfig.json
+  - .env
 
 
 
